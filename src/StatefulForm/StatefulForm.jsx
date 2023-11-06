@@ -37,7 +37,7 @@ const StatefulForm = () => {
                 <br />
                 <input
                     onChange={handleEmailChange}
-                type="email" name="email" id="" placeholder='enter your email' />
+                type="email" name="email" id="" placeholder='enter your email' defaultValue={'nomayen.ohin@gmail.com'} />
                 <br />
                 <input
                 onChange={handlePasswordChange}
