@@ -9,5 +9,5 @@ const useInputState = (defaultValue = '') =>{
     }
     return{ value, handleChnage}
 }
-
+console.log(value)
 export default useInputState;
